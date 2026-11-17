@@ -36,6 +36,18 @@
   }
   .summary h2{margin:0 0 .6rem;font-size:1.15rem;}
   .summary p{margin:0;color:#444;font-size:.95rem;}
+  .homework{margin:0 0 2.2rem;}
+  .homework h2{font-size:1.15rem;margin:0 0 .8rem;color:#1a1a1a;}
+  .hw-card{
+    display:block;text-decoration:none;color:inherit;
+    background:#fff;border:1px solid #e6e8ec;border-radius:10px;
+    padding:1.3rem 1.4rem;transition:border-color .18s, background .18s;
+  }
+  .hw-card:hover{border-color:#9fb3c8;background:#fcfdff;}
+  .hw-tag{font-size:.78rem;color:#2b57d8;letter-spacing:.05em;margin-bottom:.35rem;}
+  .hw-card h3{margin:0 0 .35rem;font-size:1.15rem;color:#1a1a1a;}
+  .hw-card p{margin:0 0 .7rem;color:#555;font-size:.93rem;}
+  .hw-go{font-size:.9rem;color:#2b57d8;font-weight:600;}
   footer{text-align:center;color:#999;font-size:.85rem;padding:2rem 0 2.5rem;}
 </style>
 </head>
@@ -46,6 +58,16 @@
 </header>
 
 <main class="wrap">
+
+  <section class="homework">
+    <h2>课程作业</h2>
+    <a class="hw-card" href="mlp-learning-params.html">
+      <div class="hw-tag">第二篇 · 第 15 节 · 人工神经元网络</div>
+      <h3>MLP 学习参数的实现与可视化</h3>
+      <p>用 PyTorch 的 2-2-1 网络学习 XOR，把损失、9 个可学习参数和决策边界的演变过程完整展示出来。</p>
+      <span class="hw-go">查看作业 →</span>
+    </a>
+  </section>
 
   <div class="card">
     <h3>通用学习Agent</h3>
